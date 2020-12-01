@@ -1,0 +1,160 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+	padding-bottom: 5px;
+}
+
+h2{
+	font-size: 32px; 
+	line-height: 43px;
+	margin-bottom: 24px;
+	padding-bottom: 5px;
+	border-bottom:1px solid black;	
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 72px;
+}
+
+.header{
+	font-size: 80px;
+	line-height: 94px;
+	border-bottom:2px solid black;
+	margin-bottom: 65px;
+}
+
+.profile img{
+	width: 324px;
+	height: 324px;
+	margin-bottom: 48px;
+}
+
+.profile li{
+	line-height: 36px;
+}
+
+.subTitle{
+	color:#A00404;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 31px;		
+}
+
+li,
+.workexperienceList p{
+	margin-bottom: 24px;
+	font-size: 24px;
+}
+
+.middle,
+.middleContact{		
+	color:#fff;	
+	padding-top: 24px;
+	padding-bottom: 36px;	
+}
+
+.skills ,
+.contact{
+	border-bottom: 1px solid #fff;	
+	text-align: center;
+}
+
+.skillsList{
+	border-left: 1px solid #fff;
+	padding-left: 24px;	
+	width: 210px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.workexperienceList img{
+	width: 90px;
+	height: 90px;
+}
+
+.contactList{	
+	text-align:center;
+}
+
+.contactList img{
+	width: 48px;
+	height: 48px;
+	padding-right: 24px;
+	text-align:center;
+}
+
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.background{
+	background-color:#415165;
+}
+
+.background .subTitle{
+	color:#fff;
+
+}
+
+.descript{
+	width: 642px;
+}
+
+.icon{
+	display: flex;
+	justify-content: center;	
+}
+
+.icon li{
+	padding-right: 24px;
+}
+
+.middleContact{
+	margin-bottom: 0px;
+}
